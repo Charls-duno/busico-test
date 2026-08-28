@@ -1,0 +1,30 @@
+ p {
+     color: rgb(11, 26, 114);
+ }
+
+ h2 {
+     color: rgb(10, 141, 124);
+
+
+ }
+
+ #projects {
+     color: rgb(13, 99, 66);
+ }
+
+ #services {
+     color: rgb(70, 45, 7);
+ }
+
+ .contact {
+     color: orange;
+ }
+
+ body {
+     text-align: center;
+
+ }
+
+ ul {
+     list-style: none;
+ }
