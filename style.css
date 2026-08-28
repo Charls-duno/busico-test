@@ -28,3 +28,32 @@
  ul {
      list-style: none;
  }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     margin-right: 50px;
+     margin-left: 50px;
+ }
+
+ nav ul {
+     display: flex;
+     gap: 20px;
+ }
+
+ main {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding: 20px;
+ }
+
+ main section {
+     flex: 1;
+     min-width: 300px;
+     border: 1px solid black;
+     padding: 20px;
+
+
+ }
