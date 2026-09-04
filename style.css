@@ -165,10 +165,10 @@
      padding: 12px 24px;
      border: none;
      border-radius: 10px;
-     transition: background-color 1s ease;
+     transition: background-color 0.1s ease;
  }
 
  button:hover {
-     background-color: pink;
+     background-color: red;
      color: black;
  }
