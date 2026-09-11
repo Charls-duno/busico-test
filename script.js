@@ -8,3 +8,20 @@ let Number = 09166138837;
 console.log("Number is: " + Number); 
 let Address = "Victorias City, Philippines"; 
 console.log("Address is: " + Address); 
+
+function greet(name) {
+    return `Good morning, ${name}`;
+}
+    console.log(greet("charls"));
+
+function mdas(firstNumber, secondNumber) {
+    console.log(`
+${firstNumber} * ${secondNumber} = ${firstNumber * secondNumber}
+${firstNumber} / ${secondNumber} = ${(firstNumber / secondNumber).toFixed(4)}
+${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}
+${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}`);
+}
+
+mdas(10, 2);
+
+    
