@@ -24,4 +24,13 @@ ${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}`);
 
 mdas(10, 2);
 
-    
+
+
+const heading = document.querySelector("h1");
+console.log(heading);
+
+const contact = document.querySelector("#contact h2");
+console.log(contact);
+const services = document.querySelector("#services h2");
+console.log(services);
+
