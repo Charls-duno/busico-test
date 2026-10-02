@@ -4,8 +4,8 @@ console.log("Name is: " + Name);
 
 let Age = 20; 
 console.log("Age is: " + Age); 
-let Number = 09166138837; 
-console.log("Number is: " + Number); 
+const phoneNumber = "09166138837";
+console.log("Number is: " + phoneNumber);
 let Address = "Victorias City, Philippines"; 
 console.log("Address is: " + Address); 
 
@@ -46,12 +46,6 @@ heading.textContent = "My portfolio";
 contactHeading.textContent = "Let's Connect!";
 projectHeading.textContent = "My Projects";
 
-heading.style.color = "purple";
-heading.style.backgroundColor = "yellow";
-contactHeading.style.color = "purple";
-projectHeading.style.color = "purple";
-servicesHeading.style.color = "purple";
-
 heading.addEventListener("click", function () {
     heading.style.color = "red";
 });
@@ -64,9 +58,11 @@ toggleButton.addEventListener("click", function () {
     isOff = !isOff;
 
     if (isOff) {
-        body.style.backgroundColor = "black";
+        body.style.setProperty("background-color", "black", "important");
+        body.style.setProperty("color", "white", "important");
     } else {
-        body.style.backgroundColor = "white";
+        body.style.setProperty("background-color", "#f4f7f4", "important");
+        body.style.removeProperty("color");
 
 
     }
